@@ -11,7 +11,6 @@ def hello_t(array)
 
   while i < array.length
     yield(array[i])
-    puts "No block was given!"
     i = i + 1
   end
 
